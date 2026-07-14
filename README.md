@@ -7,6 +7,10 @@ Route [Playwright](https://playwright.dev) browsers through [ProxyHat](https://p
 [![npm](https://img.shields.io/npm/v/playwright-proxyhat)](https://www.npmjs.com/package/playwright-proxyhat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+> [!TIP]
+> **Recommended proxies — [ProxyHat](https://proxyhat.com?utm_source=github&utm_medium=readme&utm_campaign=playwright&utm_content=callout) residential IPs.** Every feature in this package is tested end-to-end against ProxyHat and works great. First-class integration; also works with any proxy, or none.
+
+
 ## Why
 
 Driving a browser from datacenter IPs gets you blocked, CAPTCHA'd, and rate-limited. This package plugs ProxyHat's residential IPs (50M+ across 148+ countries) into Playwright through its first-class proxy option — set at launch, or **per browser context**, which is the real hook: Playwright isolates each context (its own cookies, storage, and IP), so this package maps **each context to one pinned residential IP**, mimicking a real user. No boilerplate; works with Chromium, Firefox, and WebKit.
