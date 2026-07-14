@@ -1,6 +1,6 @@
 {
   "name": "playwright-proxyhat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Route Playwright browsers through ProxyHat residential proxies — a pinned sticky IP per browser context, geo-targeting, and rotating IPs.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
